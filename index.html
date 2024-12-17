@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL RIZZ</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <i class="fas fa-utensils"></i> RESTRO
+        </a>
+        <nav class="navbar">
+            <a href="#home">HOME</a>
+            <a href="#dishes">DISHES</a>
+            <a href="#about">ABOUT</a>
+            <a href="#menu">MENU</a>
+            <a href="#review">REVIEW</a>
+            <a href="#order">ORDER</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i> 
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="Search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>OUR SPECIAL DISH</span>
+                        <h3>Paw Bhaji</h3>
+                        <p>Serve pav bhaji with some butter topped and onion</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="https://www.cookingwithsiddhi.com/wp-content/uploads/2019/11/pav-bhaji-750x500.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>OUR SPECIAL DISH</span>
+                        <h3>Fried Chicken</h3>
+                        <p> The retro classic, all gussied up for modern tastes.  </p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2023/2/23/FNK_Indian-Fried-Chicken_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1677264108617.webp" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>OUR SPECIAL DISH</span>
+                        <h3>Pancakes</h3>
+                        <p>dipped with honey & mapple syrup</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="https://assets.bonappetit.com/photos/622a6c4f7d1e521b467c3d0b/16:9/w_4192,h_2358,c_limit/20220307%20A%20SKEPTIC%20TRIES%20PANCAKES%20LEDE.jpg" alt="">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading">Our Dishes</h3>
+        <h1 class="heading">Popular Dishes</h1>
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="https://eastindianrecipes.net/wp-content/uploads/2022/09/How-to-Make-North-Indian-Thali-Vegetarian-7.jpg" alt="thali">
+                <h3>Tasty Indian Thali</h3>
+                <span>Rs. 350.00</span>
+                <a href="#" class="btn add-to-cart">Add to Cart</a>
+            </div>
+            
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="https://junifoods.com/wp-content/uploads/2023/03/Chicken-Momo-Restaurant-Style-Kukhura-ko-Momo-%E0%A4%95%E0%A5%81%E0%A4%96%E0%A5%81%E0%A4%B0%E0%A4%BE%E0%A4%95%E0%A5%8B-%E0%A4%AE%E0%A4%AE-2.jpg" alt="Momos">
+                <h3>Crazy Spicy Momos</h3>
+                <span>Rs. 150.00</span>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="https://vismaifood.com/storage/app/uploads/public/8b4/19e/427/thumb__1200_0_0_0_auto.jpg" alt="Dosa">
+                <h3>Masala Dosa</h3>
+                <span>Rs. 120.00</span>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="https://www.cookerru.com/wp-content/uploads/2022/09/pan-fried-noodles-main-preview.jpg" alt="Noodles">
+                <h3>Noodles</h3>
+                <span>Rs. 120.00</span>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="https://www.allrecipes.com/thmb/qZ7LKGV1_RYDCgYGSgfMn40nmks=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-24878-bbq-chicken-pizza-beauty-4x3-39cd80585ad04941914dca4bd82eae3d.jpg" alt="Pizza">
+                <h3>Pizza</h3>
+                <span>Rs. 420.00</span>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h3 class="sub-heading">About Us</h3>
+        <h1 class="heading">Why Choose Us?</h1>
+        <div class="row">
+            <div class="image">
+                <img src="https://i.pinimg.com/736x/e6/8c/72/e68c7285939ddbcb5327e7ca4061edb4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Best Food</h3>
+                <p>pav bhaji, the best selling of all time.</p>
+                <p> chicken.</p>
+                <div class="icons-conatiner">
+                     <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>Free Delivery</span>
+                     </div>
+                     <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>Easy Payment</span>
+                     </div>
+                     <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 Service</span>
+                     </div>
+                </div>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <h3 class="sub-heading">Our Menu</h3>
+        <h1 class="heading">Our Speciality</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="https://www.mygfguide.com/wp-content/uploads/2021/11/swiss-roll-cut-web-720x540.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div> 
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Swiss Roll</h3>
+                    <p>Indulge in the ultimate dessert delight—our luscious Swiss Rolls! Soft, spongy cake rolled with a rich, creamy filling and coated in heavenly chocolate.</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                    <span class="price">Rs.350</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://sharethespice.com/wp-content/uploads/2024/02/Paneer-Tikka-Featured.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div> 
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Paneer Tikka</h3>
+                    <p>Calling all foodies! Indulge in the rich, smoky flavors of our Paneer Tikka. Succulent cubes of paneer, marinated in a blend of aromatic spices and yogurt, roasted to golden perfection in a tandoor.</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                    <span class="price">Rs.250</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://www.foodiesfeed.com/wp-content/uploads/2023/05/juicy-cheeseburger.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div> 
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Cheese Burger</h3>
+                    <p>Say hello to burger bliss with our Ultimate Cheeseburger! Juicy, flame-grilled beef patty topped with gooey, melted cheese that’ll have you coming back for more.</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                    <span class="price">Rs.250</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://www.simplyquinoa.com/wp-content/uploads/2023/03/egg-white-omelet-1.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div> 
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Omlete</h3>
+                    <p>Start your day the right way—with a fluffy, golden omelette cooked to perfection!</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                    <span class="price">Rs.150</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://www.savoryandsweetfood.com/wp-content/uploads/2018/02/IMG_4514-680x1024.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div> 
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Smoky Chicken</h3>
+                    <p>Perfect for dinner, parties, or just because you deserve something amazing. Pair it with our signature sides for a meal you'll never forget.</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                    <span class="price">Rs.450</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div> 
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Chilli Potato</h3>
+                    <p>A spicy and flavorful Indo-Chinese dish, Chilli Potato is a popular starter or side dish that combines crispy fried potatoes with a savory and slightly sweet chilli sauce.</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                    <span class="price">Rs.250</span>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="review" id="review">
+        <h3 class="sub-heading">Customer Reviews</h3>
+        <h1 class="heading">What they Say??</h1>
+        <div class="swiper-container review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="https://static.vecteezy.com/system/resources/previews/038/974/578/non_2x/ai-generated-professional-portrait-of-a-competent-woman-free-photo.jpg" alt="user1">
+                        <div class="user-info">
+                            <h3>Ritika Dahiya</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>The burger was absolutely delicious! Juicy patty, perfectly melted cheese, and fresh toppings all wrapped in a soft, toasted bun.</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="https://t3.ftcdn.net/jpg/01/91/85/06/360_F_191850653_IkzN9vZTtOtJ8NTKLKOp8PlaY8iCk6Ls.jpg" alt="user2">
+                        <div class="user-info">
+                            <h3>Dally R</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>The smoky chicken was incredible—tender, juicy, and packed with bold, smoky flavor! The seasoning was just right, and every bite had that perfect charred goodness.</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg" alt="user3">
+                        <div class="user-info">
+                            <h3>Manasa Chinaman</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>The Swiss roll was divine! Soft, fluffy cake with a rich, creamy filling that melts in your mouth. The chocolate coating added the perfect touch of sweetness. Absolutely irresistible! </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="order" id="order">
+        <h3 class="sub-heading">Order Now</h3>
+        <h1 class="heading">Free and Fast</h1>
+        <form active="">
+            <div class="inputBox">
+                <div class="input">
+                    <span>Your Name</span>
+                    <input type="text" placeholder="Enter your Name"></imput>
+                </div>
+                <div class="input">
+                    <span>Your Number</span>
+                    <input type="number" placeholder="Enter your Number"></imput>
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Your Order </span>
+                    <input type="text" placeholder="Enter food name"></imput>
+                </div>
+                <div class="input">
+                    <span>Additional food</span>
+                    <input type="text" placeholder="Extra with food"></imput>
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Quantity</span>
+                    <input type="number" placeholder="Quantity"></imput>
+                </div>
+                <div class="input">
+                    <span>Your Address</span>
+                    <input type="text" placeholder="Enter your address"></imput>
+                </div>
+            </div>
+            <input type="submit" value="order now" class="btn">
+        </form>
+    </section>
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Location</h3>
+                <a href="#">India</a>
+                <a href="#">US</a>
+                <a href="#">UK</a>
+                <a href="#">Italy</a>
+                <a href="#">Europe</a>
+                <a href="#">Russia</a>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">Dishes</a>
+                <a href="#">About</a>
+                <a href="#">Menu</a>
+                <a href="#">Review</a>
+                <a href="#">Order</a>
+            </div>
+            <div class="box">
+                <h3>Conatcts</h3>
+                <a href="#">+91-1234567890</a>
+                <a href="#">+111-222-3333</a>
+                <a href="#">myrestro@gmail.com</a>
+                <a href="#">csai@gmail.com</a>
+                <a href="#">Sonipath, haryana- 131001</a>
+            </div>
+        </div>
+        <div class="credit">copyright @2024 by <span>Restro</span></div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>    <script src="script.js"></script> 
+</body>
+</html>
